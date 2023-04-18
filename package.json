@@ -5,7 +5,7 @@
   "main": "./src/index.js",
   "scripts": {
     "start": "nodemon ./scr/index.js",
-    "test": "jest -w"
+    "test": "jest --runInBand --detectOpenHandles --forceExit"
   },
   "keywords": [],
   "author": "",
